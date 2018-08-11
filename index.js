@@ -11,7 +11,7 @@ function currentLine(array) {
       names += `${i+1}. ${array[i]}, `
     }
     names = names.slice(0, -2)
-    return `The line is currently: ${names}`
+    return console.log(`The line is currently: ${names}`)
   }
   else {
     return "The line is currently empty."
