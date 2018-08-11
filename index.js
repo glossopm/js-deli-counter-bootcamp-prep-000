@@ -25,4 +25,4 @@ function nowServing(array) {
     return `There is nobody waiting to be served!`
   }
 }
-currentLine("["bro", "thad", "chad"]")
+currentLine(["bro", "thad", "chad"])
